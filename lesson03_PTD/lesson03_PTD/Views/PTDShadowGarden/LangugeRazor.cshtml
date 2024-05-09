@@ -1,0 +1,50 @@
+﻿
+@{
+    ViewBag.Title = "LangugeRazor";
+}
+
+<h2>LangugeRazor</h2>
+
+<h3>Ngài</h3>
+@{
+    var name = "Pham Thanh Dat";
+    int age = 20;
+    DateTime Phone = DateTime.Now;
+}
+<p>Họ Và Tên: @name</p>
+<p>Tuổi: @age</p>
+<p>Time: @Phone</p>
+<hr />
+<h3>Câu lệnh if</h3>
+@{
+    if (age > 19)
+    {
+        <p>Tuổi @age => Tuổi Đẹp Đấy</p>
+    }
+    else
+    {
+        <p>Quá Đẹp</p>
+    }
+}
+<hr />
+<h3>Loop: for, while, do....while, foreach....</h3>
+@{
+    int num = 10;
+}
+@for (int i = 0; i < num; i++)
+{
+    <li>@i => @i*@i</li>
+}
+<h3>Mảng</h3>
+@{
+    string[] names = { " Pham Thanh Dat", "Nguyễn Thanh T", "Nguyễn Văn T", "Hoàng Cửu B" };
+}
+@foreach (var item in names)
+{
+    <p>@item</p>
+}
+@foreach (var item in ViewBag.Names)
+{
+    <p>@item</p>
+}
+
