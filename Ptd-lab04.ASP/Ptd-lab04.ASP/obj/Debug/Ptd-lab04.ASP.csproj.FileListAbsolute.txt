@@ -1,0 +1,2 @@
+C:\ASP.NET\Ptd-lab04.ASP\Ptd-lab04.ASP\obj\Debug\Ptd-lab04.ASP.csproj.AssemblyReference.cache
+C:\ASP.NET\Ptd-lab04.ASP\Ptd-lab04.ASP\obj\Debug\Ptd-lab04.ASP.csproj.CoreCompileInputs.cache
